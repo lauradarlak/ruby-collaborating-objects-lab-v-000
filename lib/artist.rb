@@ -31,7 +31,7 @@ class Artist
     new_artist
   end
 
-  def prints_songs
+  def print_songs
     @songs.each {|songs| puts song.name}
 
   end
