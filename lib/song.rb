@@ -5,7 +5,7 @@ def initialize(name)
   @name = name
 end
 
-def self.artist_name(artist_name)
+def artist_name(artist_name)
   artist_name = Song.new(filename.split(" - ")[1])
   self.artist = Artist.new(artist_name) if self.artist != artist_name
   self.artist
