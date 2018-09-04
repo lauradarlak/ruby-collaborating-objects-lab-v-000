@@ -6,9 +6,12 @@ def initialize(name)
   @songs = []
 end
 
-def songs(song)
+def add_song(song)
   song = Song.new
   @songs << song
+end
+
+def songs
   @songs
 end
 
