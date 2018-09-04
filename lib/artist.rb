@@ -8,6 +8,7 @@ end
 
 def songs(song)
   @songs << song
+  @songs
 end
 
 
